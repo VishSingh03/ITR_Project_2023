@@ -26,6 +26,9 @@
         <activity android:name=".TipCalculator">
 
         </activity>
+        <activity android:name=".WallpaperActivity">
+
+        </activity>
     </application>
 
 </manifest>

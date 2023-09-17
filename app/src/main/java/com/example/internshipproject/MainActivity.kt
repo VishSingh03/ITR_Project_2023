@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this,DiceRoller::class.java)
             startActivity(intent)
         }
+
+        // button for image share simulator
+        val btn_img = findViewById<Button>(R.id.button_img)
+
+        btn_img.setOnClickListener{
+            val intent = Intent(this,WallpaperActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
