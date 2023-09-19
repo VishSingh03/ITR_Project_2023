@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val btn_img = findViewById<Button>(R.id.button_img)
 
         btn_img.setOnClickListener{
-            val intent = Intent(this,WallpaperActivity::class.java)
+            val intent = Intent(this,HobbiesActivity::class.java)
             startActivity(intent)
         }
     }

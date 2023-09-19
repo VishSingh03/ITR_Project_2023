@@ -26,7 +26,7 @@
         <activity android:name=".TipCalculator">
 
         </activity>
-        <activity android:name=".WallpaperActivity">
+        <activity android:name=".HobbiesActivity">
 
         </activity>
     </application>
