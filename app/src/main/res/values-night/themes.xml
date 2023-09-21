@@ -1,16 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Dark theme -->
     <style name="Theme.InternshipProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#1C1C1C</item> <!-- A dark gray or charcoal -->
+        <item name="colorPrimaryVariant">#121212</item> <!-- A slightly darker shade of gray -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White text on primary background -->
+
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">#FF5722</item> <!-- Material Deep Orange 500 -->
+        <item name="colorSecondaryVariant">#E64A19</item> <!-- A slightly darker shade of orange -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- White text on secondary background -->
+
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+        <!-- Customize your dark theme here. -->
     </style>
 </resources>
