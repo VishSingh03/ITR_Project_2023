@@ -32,8 +32,12 @@
         android:id="@+id/button_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="72dp"
         android:text="Share images"
+=======
+        android:text="Send messages"
+>>>>>>> 77a5b05d56e52b5e1358316664573eb13e7de0ee
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_tip" />
