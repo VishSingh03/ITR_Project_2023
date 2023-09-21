@@ -20,7 +20,7 @@ class HobbiesAdapter(val context: Context,val hobbies:List<Hobby>) :RecyclerView
                 Toast.makeText(context,currentHobby!!.title + " Clicked ",Toast.LENGTH_SHORT).show()
             }
             itemView.findViewById<ImageView>(R.id.imgShare).setOnClickListener{
-                val message:String = "My hobby is ${currentHobby!!.title}"
+                val message:String = "Msg->  ${currentHobby!!.title}"
                 val intent = Intent()
                 intent.action = Intent.ACTION_SEND
                 intent.putExtra(Intent.EXTRA_TEXT,message)
